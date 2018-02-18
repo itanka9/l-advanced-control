@@ -1,0 +1,34 @@
+.leaflet-top,
+.leaflet-bottom,
+.leaflet-left,
+.leaflet-right {
+    display: flex;
+    flex-direction: row;
+    z-index: 9 !important;
+}
+
+.leaflet-top, .leaflet-top .leaflet-grow-x, .leaflet-top .leaflet-grow-y {
+    align-items: flex-start;
+}
+
+.leaflet-bottom , .leaflet-bottom .leaflet-grow-x, .leaflet-bottom .leaflet-grow-y {
+    align-items: flex-end;
+}
+
+.leaflet-grow-x {
+    width: 5000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leaflet-left .leaflet-grow-x {
+    flex-direction: row;
+}
+
+.leaflet-right .leaflet-grow-x {
+    flex-direction: row-reverse;
+}
+
+.leaflet-right .leaflet-grow-x, .leaflet-right .leaflet-grow-y {
+    margin-bottom: 0px !important;
+}
