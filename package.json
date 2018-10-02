@@ -4,7 +4,7 @@
   "description": "Advanced positioning layout for Leaflet Controls",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "keywords": [
     "leaflet",

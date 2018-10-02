@@ -1,6 +1,9 @@
 export default {
-    entry: 'src/main.js',
-    dest: 'build/l-advanced-control.min.js',
-    format: 'iife',
-    sourceMap: 'inline',
+    input: 'src/main.js',
+    output: {
+        file: 'build/l-advanced-control.min.js',
+        name: 'LAdvancedControl',
+        format: 'iife',
+        sourcemap: 'inline',
+    },
 };
