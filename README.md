@@ -4,15 +4,15 @@ Leaflet controls with advanced positioning capabilities.
 
 ![l-advanced-control example](https://github.com/itanka9/l-advanced-control/blob/master/docs/example.png)
 
-# Requirements
+## Requirements
 
 Leaflet 1.3.x.
 
-# Demo
+## Demo
 
 [Example](https://itanka9.github.io/l-advanced-control/)
 
-# Usage
+## Usage
 
 1. Include this plugin after Leaflet.js 
 
@@ -49,10 +49,14 @@ const button = new MyButton({ position: { corner: 'topleft', grow: 'x' } })
 button.addTo(map)
 ```
 
-# API
+## API
 
 `L.FlexControl` adds to `L.Control` prop `grow`, which defined direction, in which it will "grow".
 
 ```js
 type Grow = 'x' | 'y'
 ```
+
+## Licence
+
+MIT
