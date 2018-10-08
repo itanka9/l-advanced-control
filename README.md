@@ -8,7 +8,7 @@ Leaflet 1.3.x.
 
 # [Example](https://itanka9.github.io/l-advanced-control/)
 
-[[https://github.com/itanka9/l-advanced-control/blob/master/docs/example.png|alt=l-advanced-control example]]
+[[https://github.com/itanka9/l-advanced-control/blob/master/docs/example.png|alt=l-advanced-control-example]]
 
 # Usage
 
