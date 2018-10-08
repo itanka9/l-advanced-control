@@ -1,3 +1,5 @@
+import style from './style.css'
+
 L.FlexControl = L.Class.extend({
   options: {
     position: { corner: 'topright', grow: 'y' }

@@ -1,4 +1,4 @@
-var map = L.map('map', { zoomControl: false, attributionControl: false }).setView([51.505, -0.09], 20);
+const map = L.map('map', { zoomControl: false, attributionControl: false }).setView([51.505, -0.09], 20);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -10,7 +10,9 @@ L.marker([51.505, -0.09]).addTo(map)
 
 const ExampleButton = L.FlexControl.extend({
     onAdd (map) {
-        return L.DomUtil.create('div', 'example-button')
+        const btn = L.DomUtil.create('div', 'example-button')
+        btn.textContent = '+'
+        return btn
     },
     onRemove (map) {
         // Nothing to do here

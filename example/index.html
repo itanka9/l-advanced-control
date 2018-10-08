@@ -4,16 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Leaflet Advanced Control example</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-        integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-        crossorigin=""
-    />
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
-        integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
-        crossorigin=""
-    ></script>
-    <script src="l-advanced-control.min.js"></script>
-    <link rel="stylesheet" href="l-advanced-control.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/l-advanced-control@0.1.0/build/l-advanced-control.min.js"></script>
 </head>
 <style>
     html, body, #map {
@@ -26,9 +19,13 @@
     .example-button {
         height: 32px;
         width: 32px;
-        background-color: antiquewhite;
+        cursor: pointer;
+        background-color: #fff;
         border-radius: 4px;
-        box-shadow: 1px 1px 1px #666;
+        box-shadow: 1px 1px 1px #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>
 <body>

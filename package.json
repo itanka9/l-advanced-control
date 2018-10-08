@@ -4,7 +4,8 @@
   "description": "Advanced positioning layout for Leaflet Controls",
   "main": "main.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "gh-pages": "node -e \"require('gh-pages').publish('example');\""
   },
   "keywords": [
     "leaflet",
@@ -14,6 +15,8 @@
   "author": "itanka9",
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^0.56.1"
+    "gh-pages": "^2.0.1",
+    "rollup": "^0.56.1",
+    "rollup-plugin-postcss": "^1.6.2"
   }
 }
