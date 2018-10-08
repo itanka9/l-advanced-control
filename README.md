@@ -2,13 +2,15 @@
 
 Leaflet controls with advanced positioning capabilities.
 
+![l-advanced-control example](https://github.com/itanka9/l-advanced-control/blob/master/docs/example.png)
+
 # Requirements
 
 Leaflet 1.3.x.
 
-# [Example](https://itanka9.github.io/l-advanced-control/)
+# Demo
 
-[[https://github.com/itanka9/l-advanced-control/blob/master/docs/example.png|alt=l-advanced-control-example]]
+[Example](https://itanka9.github.io/l-advanced-control/)
 
 # Usage
 
