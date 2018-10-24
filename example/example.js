@@ -8,7 +8,7 @@ L.marker([51.505, -0.09]).addTo(map)
     .bindPopup('Center')
     .openPopup();
 
-const ExampleButton = L.FlexControl.extend({
+const ExampleButton = L.AdvancedControl.extend({
     onAdd (map) {
         const btn = L.DomUtil.create('div', 'example-button')
         btn.textContent = '+'
