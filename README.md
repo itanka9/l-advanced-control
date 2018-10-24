@@ -19,7 +19,7 @@ Leaflet 1.3.x.
 ```html
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
-<script src="https://unpkg.com/l-advanced-control@0.1.0/build/l-advanced-control.min.js"></script>
+<script src="https://unpkg.com/l-advanced-control@0.1.2/build/l-advanced-control.min.js"></script>
 ```
 
 or install and use with npm:

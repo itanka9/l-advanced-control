@@ -1,6 +1,6 @@
 {
   "name": "l-advanced-control",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Advanced positioning layout for Leaflet Controls",
   "main": "main.js",
   "scripts": {
