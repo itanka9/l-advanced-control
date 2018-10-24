@@ -32,10 +32,10 @@ npm i l-advanced-control --save
 import 'l-advanced-control'
 ```
 
-2. Extend `L.FlexControl` class, to define your control.
+2. Extend `L.AdvancedControl` class, to define your control.
 
 ```js
-const MyButton = L.FlexControl.extend({
+const MyButton = L.AdvancedControl.extend({
     onAdd (map) {
         return L.DomUtil.create('div', 'my-button')
     }
@@ -51,7 +51,7 @@ button.addTo(map)
 
 ## API
 
-`L.FlexControl` adds to `L.Control` prop `grow`, which defined direction, in which it will "grow".
+`L.AdvancedControl` adds to `L.Control` prop `grow`, which defined direction, in which it will "grow".
 
 ```js
 type Grow = 'x' | 'y'
